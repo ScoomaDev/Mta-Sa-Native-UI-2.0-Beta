@@ -46,7 +46,51 @@ int addTab(int windowID, string tabType, string tabText [, string tabEvent, tabl
 
 #selectTable : (only with "Select" type !) the elements in the select tab 
 
-#DeletePool 
+[Client_Side]
+
+DeletePool(int windowID)
+
+#windowID : the id of the source window
+
+[Client_Side]
+
+DeleteTab(int windowID, int WindowTab)
+
+#windowID : id of the parent window 
+
+#windowTab : id of the source tab 
+
+[Client_Side]
+
+table GetShowingPools()
+
+return a table of the showing windows 
+
+[Client_Side]
+
+int GetMenuID(table window)
+
+#window : the table of window infos 
+
+return : window id
+
+[Client_Side]
+
+int GetCurrentTab()
+
+return : houvred tab 
+
+string GetCurrentSelect(int window, int tab)
+(only in select type)
+#window : id of parent window
+
+#tab : id of parent tab 
+
+return : string of the current select text
+
+
+
+
 
 
 
