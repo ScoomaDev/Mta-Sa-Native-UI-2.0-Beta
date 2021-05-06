@@ -33,7 +33,7 @@ setVisible(int windowID, bool visible)
 #visible : the value of the visiblity  
 [Client_Side]
 
-#ff0000 int addTab(int windowID, string tabType, string tabText [, string tabEvent, table selectTable ])
+ int addTab(int windowID, string tabType, string tabText [, string tabEvent, table selectTable ])
 
 #windowID : id of parent window 
 
@@ -104,10 +104,23 @@ HideInputField()
 no des :)
 
 ------------------------------------------------ Events  ------------------------------------------------
+[Client_Side]
 
+NativeUI.onTabEnter ( source = localPlayer | houvredMenu| event)
 
+NativeUI.onCheckChange ( source = localPlayer | houvredMenu| event)
 
+NativeUI.onTabChange ( source = localPlayer | houvredMenu| event)
 
+NativeUI.onWindowClose ( source = localPlayer | Closed_window)
+
+NativeUI.onSelectChange ( source = localPlayer | houvredMenu| currentTextSelect)
+
+NativeUI.onButtonEnter ( source = localPlayer | window| tab)
+
+NativeUI.onCheckEnter ( source = localPlayer | window| tab)
+
+NativeUI.onSelectEnter ( source = localPlayer | window| tab)
 
 
 
