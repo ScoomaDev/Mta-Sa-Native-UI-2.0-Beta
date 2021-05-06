@@ -30,11 +30,10 @@ setVisible(int windowID, bool visible)
  
 #windowID : the index of the window will be invisibled or visibled
 
-#visible : the value of the visiblity 
-
+#visible : the value of the visiblity  
 [Client_Side]
 
-int addTab(int windowID, string tabType, string tabText [, string tabEvent, table selectTable ])
+#ff0000 int addTab(int windowID, string tabType, string tabText [, string tabEvent, table selectTable ])
 
 #windowID : id of parent window 
 
