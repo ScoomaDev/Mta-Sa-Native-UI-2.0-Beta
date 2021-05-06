@@ -88,6 +88,26 @@ string GetCurrentSelect(int window, int tab)
 
 return : string of the current select text
 
+[Client_Side]
+
+you can use this to show dx input field like GTA V style
+
+ShowInputField(string title [, int type])
+
+#title : the title of the inputField
+
+#type : 0 = one line | 1 = multi lines 
+
+[Client_Side]
+
+HideInputField()
+
+no des :)
+
+------------------------------------------------ Events  ------------------------------------------------
+
+
+
 
 
 
